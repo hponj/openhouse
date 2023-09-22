@@ -307,6 +307,7 @@ body {
 
 .contact .contact-content iframe{
   width: 50%;
+  border-radius: 2rem 0 0 2rem;
 }
 
 
@@ -314,6 +315,7 @@ form{
   display: block;
   background-color: #2d2d2d;
   padding: 3rem;
+  border-radius: 0 2rem 2rem 0;
 }
 
 form .form-input{
@@ -322,10 +324,13 @@ form .form-input{
   padding: 2rem;
   display: flex;
   align-items: center;
+  border-radius: 5rem;
+  border: 0.1rem solid azure;
 }
 
 form .form-input .contact-icon{
   margin-right: 1rem;
+  border-radius: 50%;
 }
 
 
@@ -344,6 +349,7 @@ form .btn{
   font-size: 1.1rem;
   display: flex;
   margin: auto;
+  border-radius: 2rem;
 }
 
 /* Footer */
