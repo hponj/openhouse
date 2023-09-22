@@ -3,7 +3,9 @@
   --bg: #000;
 }
 
-
+::-webkit-scrollbar{
+  display: none;
+}
 
 * {
   text-decoration: none;
