@@ -152,88 +152,29 @@
     </div>
 
     <!-- contact -->
-.contact{
-  display: block;
-}
+    <div class="contact" id="contact">
+        <h2>Kontak <span>kami</span></h2>
+        <p>Anda punya pertanyaan, saran, atau kritik? Jangan ragu untuk menghubungi kami kapan saja.</p>
+        <div class="contact-content">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.827495582498!2d106.64867657513312!3d-6.668286993326718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69d11270ea83ed%3A0xa457fae935fcf6c9!2sIDN%20Boarding%20School%20Pamijahan%20Bogor!5e0!3m2!1sid!2sid!4v1691502494773!5m2!1sid!2sid"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-.contact h2{
-  color: azure;
-  font-size: 3em;
-  padding: 1.2rem 7%;
-  text-align: center;
-  line-height: 1;
-}
-
-.contact h2 span{
-  color: var(--primary);
-}
-
-.contact p{
-  color: azure;
-  font-size: 1rem;
-  font-family: sans-serif;
-  padding: 0.5rem 7%;
-  text-align: center;
-  max-width: 40rem;
-  line-height: 1rem;
-  margin: auto;
-}
-
-.contact .contact-content .form{
-  display: block;
-}
-.contact .contact-content{
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.contact .contact-content iframe{
-  width: 50%;
-  border-radius: 2rem 0 0 2rem;
-}
-
-
-form{
-  display: block;
-  background-color: #2d2d2d;
-  padding: 3rem;
-  border-radius: 0 2rem 2rem 0;
-}
-
-form .form-input{
-  margin: 2rem;
-  background-color: var(--bg);
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  border-radius: 5rem;
-  border: 0.1rem solid azure;
-}
-
-form .form-input .contact-icon{
-  margin-right: 1rem;
-  border-radius: 50%;
-}
-
-
-form .form-input input{
-  background-color: var(--bg);
-  font-size: 1.3rem;
-  color: azure;
-  width: 100%;
-}
-
-form .btn{
-  color: azure;
-  margin-top: 3rem;
-  padding: 1rem 3rem;
-  background-color: var(--primary);
-  font-size: 1.1rem;
-  display: flex;
-  margin: auto;
-  border-radius: 2rem;
-}
+            <form action="https://formsubmit.co/your@email.com" method="POST">
+                <div class="form-input">
+                    <i data-feather="user" class="contact-icon"></i>
+                    <input type="text" placeholder="Nama" name="Nama">
+                </div>
+                <div class="form-input">
+                    <i data-feather="mail" class="contact-icon" ></i>
+                    <input type="email" placeholder="Email" name="Email">
+                </div>
+                <div class="form-input" >
+                    <i data-feather="clipboard" class="contact-icon"></i>
+                    <input type="text" placeholder="Pesanan" name="pesanan">
+                </div>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </div>
 
     <!-- Footer -->
 
